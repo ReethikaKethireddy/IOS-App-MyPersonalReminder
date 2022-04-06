@@ -9,12 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var welcomePageLoaded: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("Welcome!!!")
+        print("😇Welcome!🙂!!")
     }
 
-
+    @IBAction func messagePopUP(_ sender: UIButton) {
+        print("Work in progress🙋🏻‍♀️")
+    }
+    
 }
 
