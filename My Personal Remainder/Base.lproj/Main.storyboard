@@ -18,8 +18,8 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="My Personal Remainder" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y5j-oj-Q4r">
                                 <rect key="frame" x="38" y="372" width="339" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="26"/>
+                                <color key="textColor" red="0.2208412247474747" green="0.12063702103454496" blue="0.022825962394572446" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="59"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
