@@ -17,13 +17,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("😇viewdidloded🙂!!")
-        //messageLabel.text = "Are you ready to Personalize?"
+         
     }
 
     @IBAction func messagePopUP(_ sender: UIButton) {
         print("Work in progress🙋🏻‍♀️")
+
+        messageLabel.text = "Are you ready to Personalize?"
         
-        messageLabel1.text = "Hey Buddy! I'm here to help you. Login!"
+        messageLabel1.text = "Hey Buddy! \n I'm here to help you. \n Login!"
     }
     
 }
