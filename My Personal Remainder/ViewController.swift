@@ -17,16 +17,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("😇viewdidloded🙂!!")
-         
     }
 
     @IBAction func messagePopUP(_ sender: UIButton) {
         print("Work in progress🙋🏻‍♀️")
-
         messageLabel.text = "Are you ready to Personalize?"
-        
-        messageLabel1.text = "Hey Buddy! \n I'm here to help you. \n Login!"
+        messageLabel1.text = "Hey Buddy! \n I'm here to help you!"
+    
+        func listRemainders(_ sender: UIButton)
+        {
+        }
+    
+    }
+
+    
+    @IBAction func listR(_ sender: Any) {
     }
     
+    @IBOutlet weak var listRemainder: UIImageView!
+    
 }
-
