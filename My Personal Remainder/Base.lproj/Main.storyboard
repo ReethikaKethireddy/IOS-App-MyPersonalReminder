@@ -15,40 +15,73 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Personal Reminder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dnv-yO-hVM">
-                                <rect key="frame" x="15" y="28" width="344" height="275"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Reminder" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dnv-yO-hVM">
+                                <rect key="frame" x="24.5" y="28" width="326" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="275" id="pay-sG-WYx"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OA-eE-7AS">
-                                <rect key="frame" x="15" y="557" width="250" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0067471590909090606" green="0.0065319927064745077" blue="0.0014747210135210656" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Click Me Buddy!!!" cornerStyle="fixed"/>
-                                <connections>
-                                    <action selector="messagePopUP:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4zS-np-TBP"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9U-T2-gxU">
-                                <rect key="frame" x="15" y="286" width="344" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9U-T2-gxU">
+                                <rect key="frame" x="132" y="311" width="111.5" height="71"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="square.and.pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QgU-No-u8U">
-                                <rect key="frame" x="293" y="563" width="21" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OA-eE-7AS">
+                                <rect key="frame" x="62" y="600" width="251" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3OA-eE-7AS" secondAttribute="height" multiplier="250:31" id="lM9-RY-kvN"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0067471590909090606" green="0.0065319927064745077" blue="0.0014747210135210656" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Click Me Buddy!!!" cornerStyle="fixed"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="lM9-RY-kvN"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="messagePopUP:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4zS-np-TBP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.83127635717391968" green="0.72931624388605998" blue="0.57057480122433257" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="10f-iA-nL8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3OA-eE-7AS" secondAttribute="bottom" constant="20" id="5Kg-e4-mPD"/>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="EIb-EZ-pmN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3OA-eE-7AS" secondAttribute="bottom" constant="10" id="HTc-rs-E58"/>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="NP0-ir-y9h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3OA-eE-7AS" secondAttribute="trailing" constant="62" id="Nj3-w1-TJj"/>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="top" secondItem="R9U-T2-gxU" secondAttribute="bottom" constant="8" symbolic="YES" id="Sf3-Z2-NHt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3OA-eE-7AS" secondAttribute="bottom" constant="36" id="Xz5-93-hmB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3OA-eE-7AS" secondAttribute="trailing" constant="62" id="Zxw-gZ-wEp"/>
+                            <constraint firstItem="R9U-T2-gxU" firstAttribute="top" secondItem="Dnv-yO-hVM" secondAttribute="bottom" constant="8" symbolic="YES" id="gE6-Tj-WMW"/>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="top" secondItem="R9U-T2-gxU" secondAttribute="bottom" constant="30" id="lqE-Ot-cji"/>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="top" secondItem="R9U-T2-gxU" secondAttribute="bottom" constant="8" symbolic="YES" id="pDX-AO-qcf"/>
+                            <constraint firstItem="Dnv-yO-hVM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-16" id="pp4-oX-8k7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3OA-eE-7AS" secondAttribute="bottom" constant="10" id="sr6-gK-6e1"/>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="centerX" secondItem="R9U-T2-gxU" secondAttribute="centerX" id="xfV-Bz-vBW"/>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="centerX" secondItem="Dnv-yO-hVM" secondAttribute="centerX" id="ymW-Vb-T03"/>
+                            <constraint firstItem="3OA-eE-7AS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="z9k-R3-JYG"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5Kg-e4-mPD"/>
+                                <exclude reference="HTc-rs-E58"/>
+                                <exclude reference="sr6-gK-6e1"/>
+                                <exclude reference="10f-iA-nL8"/>
+                                <exclude reference="Sf3-Z2-NHt"/>
+                                <exclude reference="lqE-Ot-cji"/>
+                                <exclude reference="pDX-AO-qcf"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <connections>
-                        <outlet property="listRemainder" destination="QgU-No-u8U" id="R69-Vn-AsW"/>
                         <outlet property="messageLabel" destination="Dnv-yO-hVM" id="vTB-tl-vrt"/>
                         <outlet property="messageLabel1" destination="R9U-T2-gxU" id="34x-tg-az5"/>
                     </connections>
@@ -59,7 +92,4 @@
         </scene>
     </scenes>
     <color key="tintColor" red="0.22084122470000001" green="0.120637021" blue="0.022825962389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-    <resources>
-        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
-    </resources>
 </document>

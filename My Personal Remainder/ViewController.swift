@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
     @IBAction func messagePopUP(_ sender: UIButton) {
         print("Work in progress🙋🏻‍♀️")
-        messageLabel.text = "Are you ready to Personalize?"
+        //messageLabel.text = "Are you ready to Personalize?"
         messageLabel1.text = "Hey Buddy! \n I'm here to help you!"
     
         func listRemainders(_ sender: UIButton)

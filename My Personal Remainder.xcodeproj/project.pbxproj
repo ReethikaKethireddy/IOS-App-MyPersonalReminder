@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7836FBA527FD176C000268AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBA427FD176C000268AD /* AppDelegate.swift */; };
 		7836FBA727FD176C000268AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBA627FD176C000268AD /* SceneDelegate.swift */; };
 		7836FBA927FD176C000268AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBA827FD176C000268AD /* ViewController.swift */; };
 		7836FBAC27FD176C000268AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7836FBAA27FD176C000268AD /* Main.storyboard */; };
@@ -16,6 +15,8 @@
 		7836FBBC27FD176D000268AD /* My_Personal_RemainderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBBB27FD176D000268AD /* My_Personal_RemainderTests.swift */; };
 		7836FBC627FD176D000268AD /* My_Personal_RemainderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBC527FD176D000268AD /* My_Personal_RemainderUITests.swift */; };
 		7836FBC827FD176D000268AD /* My_Personal_RemainderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBC727FD176D000268AD /* My_Personal_RemainderUITestsLaunchTests.swift */; };
+		785828622806299000DCC9EA /* App-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 785828612806299000DCC9EA /* App-Icon.png */; };
+		78582863280632AD00DCC9EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBA427FD176C000268AD /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7836FBC127FD176D000268AD /* My Personal RemainderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Personal RemainderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7836FBC527FD176D000268AD /* My_Personal_RemainderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_RemainderUITests.swift; sourceTree = "<group>"; };
 		7836FBC727FD176D000268AD /* My_Personal_RemainderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_RemainderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		785828612806299000DCC9EA /* App-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "App-Icon.png"; path = "../../../../Desktop/App-Icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7836FBAD27FD176D000268AD /* Assets.xcassets */,
 				7836FBAF27FD176D000268AD /* LaunchScreen.storyboard */,
 				7836FBB227FD176D000268AD /* Info.plist */,
+				785828612806299000DCC9EA /* App-Icon.png */,
 			);
 			path = "My Personal Remainder";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				7836FBB127FD176D000268AD /* LaunchScreen.storyboard in Resources */,
 				7836FBAE27FD176D000268AD /* Assets.xcassets in Resources */,
+				785828622806299000DCC9EA /* App-Icon.png in Resources */,
 				7836FBAC27FD176C000268AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78582863280632AD00DCC9EA /* AppDelegate.swift in Sources */,
 				7836FBA927FD176C000268AD /* ViewController.swift in Sources */,
-				7836FBA527FD176C000268AD /* AppDelegate.swift in Sources */,
 				7836FBA727FD176C000268AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
