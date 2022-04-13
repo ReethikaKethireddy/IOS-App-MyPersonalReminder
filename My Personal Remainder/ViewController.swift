@@ -29,11 +29,16 @@ class ViewController: UIViewController {
         }
     
     }
-
+ 
     
-    @IBAction func listR(_ sender: Any) {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //This code block is to launchscreen time and slow down app load time.
+        try! FileManager.default.removeItem(atPath: NSHomeDirectory()+"/Library/SplashBoard")
+        do {
+            sleep(9)
+        }
+        return true
     }
     
-    @IBOutlet weak var listRemainder: UIImageView!
     
 }

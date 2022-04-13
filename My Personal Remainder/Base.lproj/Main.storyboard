@@ -30,8 +30,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OA-eE-7AS">
-                                <rect key="frame" x="62" y="600" width="251" height="31"/>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OA-eE-7AS">
+                                <rect key="frame" x="62" y="551" width="251" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3OA-eE-7AS" secondAttribute="height" multiplier="250:31" id="lM9-RY-kvN"/>
                                 </constraints>
@@ -80,7 +80,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="messageLabel" destination="Dnv-yO-hVM" id="vTB-tl-vrt"/>
                         <outlet property="messageLabel1" destination="R9U-T2-gxU" id="34x-tg-az5"/>
