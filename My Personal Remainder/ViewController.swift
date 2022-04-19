@@ -41,4 +41,11 @@ class ViewController: UIViewController {
     }
     
     
+    struct MyReminder {
+        let title: String
+        let date: Date
+        let identifier: String
+    }
+
+    
 }
