@@ -16,6 +16,7 @@
 		7836FBC627FD176D000268AD /* My_Personal_RemainderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBC527FD176D000268AD /* My_Personal_RemainderUITests.swift */; };
 		7836FBC827FD176D000268AD /* My_Personal_RemainderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBC727FD176D000268AD /* My_Personal_RemainderUITestsLaunchTests.swift */; };
 		78582863280632AD00DCC9EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836FBA427FD176C000268AD /* AppDelegate.swift */; };
+		78A71FF6280F8AC800C685A4 /* vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A71FF5280F8AC800C685A4 /* vc2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7836FBC127FD176D000268AD /* My Personal RemainderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Personal RemainderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7836FBC527FD176D000268AD /* My_Personal_RemainderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_RemainderUITests.swift; sourceTree = "<group>"; };
 		7836FBC727FD176D000268AD /* My_Personal_RemainderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_RemainderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78A71FF5280F8AC800C685A4 /* vc2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vc2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7836FBAD27FD176D000268AD /* Assets.xcassets */,
 				7836FBAF27FD176D000268AD /* LaunchScreen.storyboard */,
 				7836FBB227FD176D000268AD /* Info.plist */,
+				78A71FF5280F8AC800C685A4 /* vc2.swift */,
 			);
 			path = "My Personal Remainder";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				78582863280632AD00DCC9EA /* AppDelegate.swift in Sources */,
 				7836FBA927FD176C000268AD /* ViewController.swift in Sources */,
 				7836FBA727FD176C000268AD /* SceneDelegate.swift in Sources */,
+				78A71FF6280F8AC800C685A4 /* vc2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
