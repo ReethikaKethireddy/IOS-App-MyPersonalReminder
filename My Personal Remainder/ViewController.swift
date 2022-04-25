@@ -15,11 +15,9 @@ class ViewController: UIViewController {
     var models = [MyReminder]()
     override func viewDidLoad()
     {
-    
         super.viewDidLoad()
         table.delegate = self
         table.dataSource = self
-        
     }
 
     @IBAction func didTapAdd()
@@ -59,22 +57,6 @@ class ViewController: UIViewController {
 
     }
 
-//@IBAction func didTapTest(){}
-
-
-
-//   @IBAction func test() {
-//        // fire test notification
-//        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: { success, error in
-//            if success {
-//                // schedule test
-//                self.scheduleTest()
-//            }
-//            else if error != nil {
-//                print("error occurred")
-//            }
-//        })
-//    }
     @IBAction func test() {
         // fire test notification
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: { success, error in
@@ -90,9 +72,9 @@ class ViewController: UIViewController {
     
     func scheduleTest() {
         let content = UNMutableNotificationContent()
-        content.title = "Hello World"
+        content.title = "Hi There!!"
         content.sound = .default
-        content.body = "My long body. My long body. My long body. My long body. My long body. My long body. "
+        content.body = "Hey this is just a test notification for my newly created app. If you see this, is my remainder app is working!! Huhu!!. "
 
         let targetDate = Date().addingTimeInterval(10)
         let trigger = UNCalendarNotificationTrigger(dateMatching: Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: targetDate), repeats: false)
